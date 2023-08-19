@@ -101,10 +101,13 @@ search-input::placeholder {
   max-width: 1200px;
   width: 90%;
   margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .posts {
-  max-width: 800px;
+  width: 67%;
 }
 
 .post {
@@ -201,4 +204,41 @@ search-input::placeholder {
 
 .post-time {
   color: #BFBFBF;
+}
+
+.sidebar {
+  width: 31%;
+}
+
+.user {
+  background-color: #FAFAFA;
+  border: 1px solid #E8E8E8;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  margin-right: 17px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  color: #595959;
+}
+
+.icon-exit {
+  width: 20px;
+  height: 20px;
+  fill: #000;
 }
